@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Protractor Demo App" timestamp="2017-08-10T12:04:27" hostname="localhost" time="9.24" errors="0" tests="3" skipped="0" failures="0">
+  <testcase classname="Protractor Demo App" name="should have a title" time="2.224">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="Add two numbers" time="3.398">
+  </testcase>
+  <testcase classname="Protractor Demo App" name="Substract two numbers" time="3.618">
+  </testcase>
+ </testsuite>
+</testsuites>
