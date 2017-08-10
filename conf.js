@@ -15,12 +15,7 @@ exports.config = {
     },
 
     framework: 'jasmine' ,
-    onPrepare: function() {
-        var jasmineReporters = require('C:/protractor/Demo/node_modules/jasmine-reporters');
-        jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter(null, true, true)
-        );
-    },
-
+    
     summary: function (metrics) {
 
         this.log(metrics.executedSpecs + ' specs, ' +  metrics.failedSpecs+ ' failures Custom Finished in ' + metrics.duration);
